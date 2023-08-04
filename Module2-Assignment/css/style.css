@@ -1,0 +1,93 @@
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+  }
+  
+  body {
+    font-family: 'Instrument Sans', sans-serif;  
+  }
+  
+  .row {
+    width: 100%;
+  }
+  
+  .menu-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .container {
+   position: relative;
+   top:60px;
+   margin: 15px; 
+  }
+  
+  .item {
+    position: relative;
+    top: 0;
+    background-color:#ece4e4;
+    margin: 15px;
+    padding: 25px;
+    border: 3px solid #000;
+  }
+  
+  .item p {
+    margin-top: 20px;
+    text-align: justify;
+    font-size:100%;
+  }
+  
+  .item-title {
+    position: absolute;
+    top:0;
+    right: 0px;
+    padding: 6px 90px;
+    border-left: 2px solid #000;
+    border-bottom: 2px solid #000;
+  }
+  
+  #chicken-title {
+    background-color: #eb9b9b;
+  } 
+  
+  #beef-title {
+    background-color: #d60c08;
+    color: white;
+  }
+  
+  #sushi-title {
+    background-color: #e7cb7f;
+  }
+  
+  /* Simple Responsive Framework. */
+  /*------ Desktop ------*/
+  @media (min-width: 992px){
+    .col-lg-4 {
+        width: 33.33%;
+        float: left;
+    }
+  }
+  
+  
+  /*------ Tablet ------*/
+  @media (min-width: 768px) and (max-width: 991px){
+    .col-md-6 {
+        width: 50%;
+        float: left;
+    }
+    .col-md-12 {
+        width: 100%;
+        float: left;
+    }
+  }
+    
+
+  /*------ Mobile ------*/
+  @media (max-width: 767px){
+    .col-sm-12 {
+        width: 100%;
+        float: left;
+    }
+  }

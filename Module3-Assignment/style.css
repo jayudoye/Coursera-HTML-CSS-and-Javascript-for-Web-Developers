@@ -1,0 +1,98 @@
+
+.container {
+	margin: 0;
+	padding: 0;
+}
+
+
+/** HEADER **/
+
+#header-nav {
+	background-color: #9acd32;
+	border-radius: 0px;
+}
+
+.navbar-brand a {
+	color: #360b0be7;
+	font-size: 35px;
+	font-weight: bold;
+	text-shadow: 1px 2px 5px #360b0be7;
+	margin-left: 25px;
+}
+
+.nav {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-toggle {
+	border: 2px solid #290909e7;
+	margin-right: 25px;
+}
+
+.icon-bar {
+	background-color: #290909e7;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+}
+
+#myNavbar {
+	font-size: 2em;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	box-sizing: border-box;
+	width: 100%;
+} 
+
+.menu-item {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: #f0ebeb;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	border-bottom: 2px solid black;
+	color: #200101;
+	display: block;
+}
+
+/** End of HEADER **/
+
+.menu-title {
+	margin-bottom: 15px;
+	color: #241894af;
+	font-size: 50px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+}
+
+.row {
+	margin: 20px;
+}
+
+.item {
+	margin: 20px;
+	padding: 20px;
+	width: auto;
+	height: auto;
+	color: black;
+	text-align: justify;
+	background-color: #f1c2c2de;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 15px;
+}
+
+.item-title {
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
