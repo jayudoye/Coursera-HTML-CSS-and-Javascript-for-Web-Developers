@@ -1,5 +1,4 @@
-# module3-assignment-solution
+# Module 3 Assignment Solution
+This is the solution for the module 3 assignment of the coursera course- HTML, CSS, and Javascript for Web Developers
 
-Module 3 Assignment Solution
-
-"To see output" <a href="https://jayudoye.github.io/module3-assignment-solution/index.html" rel="nofollow">CLICK HERE</a> 
+# To see output, <a href = "https://jayudoye.github.io/Coursera-HTML-CSS-and-Javascript-for-Web-Developers/Module3-Assignment/">Click here</a>
